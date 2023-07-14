@@ -1,0 +1,283 @@
+/* style.css */
+
+/* Header */
+header {
+    padding: 20px;
+    background-color: #197fd2;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  /* Beranda */
+  #home {
+    padding: 100px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  #home p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Tentang Kami */
+  #about {
+    padding: 100px 0;
+    background-color: #bfcfed;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  #about .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  #about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* Tim Manajemen */
+  #aboutt {
+    padding: 100px 0;
+    background-color: #e9ecf1;
+    text-align: center;
+  }
+  
+  #aboutt h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #aboutt p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  #aboutt .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  #aboutt img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Layanan */
+  #services {
+    padding: 100px 0;
+    background-color: #bfcfed;
+    text-align: center;
+  }
+  
+  #services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #services .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  #services img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Portofolio / Produk */
+  #portfolio {
+    padding: 100px 0;
+    background-color: #e9ecf1;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #portfolio .col-md-4 {
+    margin-bottom: 30px;
+  }
+  
+  #portfolio img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  #portfolio h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #portfolio a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  #portfolio a:hover {
+    background-color: #555;
+  }
+  
+  /* Kontak */
+  #contact {
+    padding: 100px 0;
+    background-color: #bfcfed;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* FAQ */
+  #faq {
+    padding: 100px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #faq h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    background-color: #f7f7f7;
+    border-bottom: none;
+  }
+  
+  .card-header h5 {
+    font-size: 18px;
+  }
+  
+  .card-body {
+    background-color: #f7f7f7;
+  }
+  
+  .card-body p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  .card-body a:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px 0;
+    background-color: #555;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    font-size: 24px;
+  }
+  
